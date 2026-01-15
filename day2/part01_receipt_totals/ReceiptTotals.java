@@ -15,13 +15,23 @@ public class ReceiptTotals {
     // TODO:
     // - Calculate and print the total cost.
     // - Do NOT hard-code the total.
-    public static void printReceiptSummary() {
-
+    public static void printReceiptSummary () {
+        int totalCost = 0;
+        for(int item = 100; item <=105; item ++) {
+            totalCost +=5; 
+        }
+        System.out.println(" total cost: $" + totalCost); 
     }
+
+    
+
+
+    p
 
     // TODO:
     // Print a countdown from 5 down to 0 on one line.
     public static void printClosingCountdown() {
+        
     
     }
     
