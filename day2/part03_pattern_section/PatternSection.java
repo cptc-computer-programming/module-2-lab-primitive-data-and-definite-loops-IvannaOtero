@@ -27,6 +27,29 @@ public class PatternSection {
     // - use SIZE in all loop bounds (no magic numbers except 0/1)
     public static void printDiamondTop() {
 
+        // loop through the total rows in the top half of  the diamond
+        // we know that SIZE = 3, total row is 6
+
+        for(int row = 0; row < SIZE * 2; row++) { 
+            // beging hte row with a | 
+            System.out.print("|")
+            }
+            // Print leading dots (hardcoded first row)
+         for (int i = 0; i < 5; i ++) {
+             System.out.print(".")
+            }
+            
+            //  print triangles (hardcoded first row) 
+
+
+
+            // print traling dots ( hardcoded first row)
+            for (int i = 0; i < 5; i ++) {
+                System.out.print(".")
+            }
+
+        
+
     }
 
     // TODO: Print the bottom half (mirror/inverse of the top half).
